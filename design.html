@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design</title>
+</head>
+<style>
+    .main{
+        flex: 1;
+    }
+    body{
+        margin: 50px 50px 0 50px;
+        display: flex;
+        flex-direction: column;
+        min-height: 95vh;
+    }
+    
+    h1{
+        font-size: 3.5rem;
+        text-align: left;
+    }
+    #footer{
+     text-align: right;
+     color:midnightblue;
+    }
+    .card{
+        text-align: right;
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        object-fit: cover;
+        display: inline;
+    }
+    .card{
+        width: 45%;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float:right;
+    }
+    .title-image{
+        height: 200px;
+        float: left;
+        margin-right: 50px;
+
+    }
+    .creative{
+        color: midnightblue;
+    }
+    @media(max-width:680px){
+        .logo{
+            width: 100px;
+        }
+    }
+    .logo{
+        width: 94px;
+    }
+    
+</style>
+<body>
+    <div class="main">
+        
+        <img class="logo" src="https://media.istockphoto.com/id/1340465111/vector/abstract-symbol-of-friendship-bonds.jpg?s=1024x1024&w=is&k=20&c=I-yI3YOgoFstq9b742JJS8gm80tO6nCNdwgcIBL2ays=" alt="logo">
+        <h1>we are <span class="creative">creative</span><br> web designing people</h1>
+
+        
+        <div class="left card">
+           
+        <img class="title-image" src="https://media.istockphoto.com/id/157530824/photo/flower-in-pool-02.jpg?s=1024x1024&w=is&k=20&c=g5ePhk-v0urG5K-RfYdzDMt-boeUr508_glyMTRpxAM=" alt="flower image">
+        <h2 class="card-title">Beauty</h2>
+        <p class="card-text">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
+       </div>
+
+       <div class="right card">
+        <img  class="title-image"  src="https://as2.ftcdn.net/v2/jpg/00/68/63/23/1000_F_68632352_kmHLwFc2rQLmnKqn6gM0bhOPqxRTx8sY.jpg" alt="construction image">
+        <h2 class="card-title">Construction</h2>
+        <p class="card-text">construction, the techniques and industry involved in the assembly and erection of structures, primarily those used to provide shelter. Construction is an ancient human activity.Construction details are technical drawings or specifications that provide detailed information about the materials, components, and systems used in the construction of a building or structure.</p>
+       </div>
+    </div>
+       
+</body>
+<footer id="footer">
+    <p>Create.Develop.Design.</p> 
+ </footer>
+</html >
